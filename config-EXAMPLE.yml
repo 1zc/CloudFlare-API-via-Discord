@@ -1,0 +1,17 @@
+# Configuration File for Cloudflare API via Discord
+# https://github.com/1zc/Cloudflare-API-via-Discord
+
+cloudflare:
+  token: CLOUDFLARE_TOKEN
+  account_identifier: CLOUDFLARE_ACCOUNT_IDENTIFIER
+  zone_identifier: CLOUDFLARE_ZONE_IDENTIFIER
+
+discord:
+  token: DISCORD_BOT_TOKEN
+  guilds_whitelist: # If you want to disable the whitelist, you can set this variable to [] - this is not recommended.
+  - GUILD_ID
+  - GUILD_ID
+  roles_whitelist: # If you want to disable the whitelist, you can set this variable to [] - this is not recommended.
+  - ROLE_ID
+  - ROLE_ID
+

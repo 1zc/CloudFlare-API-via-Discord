@@ -1,0 +1,3 @@
+aiohttp
+pyyaml
+py-cord==2.3.2
